@@ -15,6 +15,8 @@ Este repositório contém a resolução de 4 desafios práticos desenvolvidos co
 
 ## Para executar esse projeto
 
+<details>
+
 ### Clone esse repositório
 
 ```
@@ -23,7 +25,6 @@ cd D2
 ```
 
 ### Crie um ambiente virtual
-<details>
 
 ```
 python -m venv venv
@@ -185,3 +186,8 @@ https://localhost:5000
 ```
 
 </details>
+
+## Vídeo do Site
+
+https://github.com/user-attachments/assets/1ccea921-c73f-4582-a9d0-def06a715b11
+
