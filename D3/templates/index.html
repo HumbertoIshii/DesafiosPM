@@ -1,0 +1,158 @@
+{% extends 'base.html' %}
+
+<!--Título-->
+{% block title %}Home{% endblock %}
+
+<!--Conteúdo-->
+{% block content %}
+
+<!--Carousel-->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    </div>
+        
+    <!--Imagens e Texto-->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/static/images/tabletop-gaming-dice.png" alt="Dices" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+                <h3 class="text-white-black-border">Role-playing games</h3>
+                <p class="text-white-black-border">Jogo colaborativo onde jogadores criam personagens e exploram narrativas em um mundo imaginário.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/static/images/dnd.png" alt="DnD" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+                <h3 class="text-white-black-border">Dungeons and Dragons</h3>
+                <p class="text-white-black-border">Um universo de fantasia vasto e diversificado com magia, criaturas míticas e aventuras épicas.</p>
+            </div> 
+        </div>
+        <div class="carousel-item">
+            <img src="/static/images/ordem.png" alt="Ordem" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+                <h3 class="text-white-black-border">Ordem paranormal</h3>
+                <p class="text-white-black-border">Um mundo onde jogadores exploram mistérios sobrenaturais e conspirações ocultas.</p>
+            </div>  
+        </div>
+        <div class="carousel-item">
+            <img src="/static/images/cthulhu.png" alt="Cthulhu" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+                <h3 class="text-white-black-border">Call of Cthulhu</h3>
+                <p class="text-white-black-border">Um TTRPG de horror investigativo baseado nas obras de H.P. Lovecraft.</p>
+            </div>  
+        </div>
+    </div>
+        
+        <!-- Botões < > -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+  
+
+<!--Introdução-->
+<div class="py-5 container">
+    <h2 class="py-3 text-center">Role-Playing Game (RPG)</h2>
+    <div class="mb-5">
+        <div class="col-lg-8 offset-md-2"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam placeat quae, nesciunt maiores aliquam, dolore iure assumenda ullam nisi pariatur culpa laborum molestias atque voluptatibus architecto, iste quis? Ut, veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus unde dicta nemo, voluptatem accusantium expedita harum neque quae pariatur! Minima commodi fugiat recusandae id voluptatum tempora atque a tempore vitae.</p></div>
+        <div class="col-lg-8 offset-md-2"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod in aperiam cumque molestias. Laudantium vel, laborum possimus ab facere perspiciatis at repellendus error, maxime quia distinctio ullam, libero doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae assumenda et nostrum aliquam ducimus? Totam cupiditate cumque non nulla enim, corrupti odit accusantium ratione rem laborum. Unde earum hic ex?</p></div>
+    </div>
+
+    <div>
+        <img class="img-fluid rounded mx-auto d-block" src="/static/images/RPG-group.png" alt="Grupo">
+    </div>
+</div>
+
+<!--Qual Sistema-->
+<div class="py-5 content container-fluid bg-gray">
+    <h2 class="py-3 text-center">Qual Sistema Escolher?</h2>
+
+    <div class="row">
+        <div class="col-lg-4 ms-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam placeat quae, nesciunt maiores aliquam, dolore iure assumenda ullam nisi pariatur culpa laborum molestias atque voluptatibus architecto, iste quis? Ut, veniam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt unde et aperiam cum voluptas similique sapiente, possimus inventore, quas aspernatur molestias corporis neque quisquam, iure aliquam ut consectetur praesentium obcaecati!</p></div>
+        <div class="col-lg-4 me-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod in aperiam cumque molestias. Laudantium vel, laborum possimus ab facere perspiciatis at repellendus error, maxime quia distinctio ullam, libero doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus dignissimos eveniet ipsa! Hic saepe itaque, aliquid cum sunt nihil quod in nisi voluptatibus temporibus, molestiae repellat numquam suscipit voluptates.</p></div>
+    </div>
+
+    <div class="text-center mt-4">
+        <img class="img-fluid rounded" src="/static/images/rpgs-genres.png" alt="Sistemas">
+    </div>
+</div>
+
+<!-- Publicadoras -->
+<div class="row gx-4 gx-lg-5 align-items-center justify-content-center my-5 content container-fluid">
+    <div class="col-lg-4"><img class="img-fluid rounded mb-4 mb-lg-0" src="/static/images/rpg-books.png" alt="Livros" /></div>
+    <div class="col-lg-4">
+        <h2 class="font-weight-light">Publicadoras</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, obcaecati atque voluptas et aliquid quia voluptates voluptatum maiores quae blanditiis distinctio ea iusto. Dignissimos nihil, hic porro iusto magnam ex? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, saepe. Ipsum, commodi numquam praesentium labore eaque voluptate magnam doloribus atque? Harum recusandae temporibus nulla itaque est iusto autem deserunt placeat!
+        </p>
+    </div>
+</div>
+
+<!--DM e PC-->
+<div class="pt-3 pb-5 bg-gray content container-fluid">
+    <div class="container">
+        <h2 class="py-3 text-center">Tipos de Jogador</h2>
+        <div class="row gy-3 gy-md-4 gy-lg-0">
+            <div class="col-12 col-lg-6">
+                <div class="card bg-light p-3 m-0">
+                    <div class="row gy-3 gy-md-0 align-items-md-center">
+                        <div class="col-md-5">
+                            <center>
+                                <img src="/static/images/dm.png" class="img-fluid rounded-circle" alt="Dungeon Master">
+                            </center>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body p-0">
+                                <h2 class="card-title h4 mb-3">Dungeon Master (DM)</h2>
+                                <p class="card-text lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda qui illo magni, quam at accusantium ad, culpa amet quia commodi magnam laudantium perspiciatis incidunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card bg-light p-3 m-0">
+                    <div class="row gy-3 gy-md-0 align-items-md-center">
+                        <div class="col-md-5">
+                            <center>
+                                <img src="/static/images/pc.png" class="img-fluid rounded-circle" alt="Player">
+                            </center>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body p-0">
+                                <h2 class="card-title h4 mb-3">Playable Character (PC)</h2>
+                                <p class="card-text lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit corrupti modi nostrum quo sed. Maiores blanditiis vel cumque quo nemo hic sint laborum quaerat pariatur quis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Campanha-->
+
+<div class="py-5 content container-fluid">
+    <h2 class="py-3 text-center">Começando uma Campanha</h2>
+
+    <div class="row">
+        <div class="col-lg-4 ms-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam placeat quae, nesciunt maiores aliquam, dolore iure assumenda ullam nisi pariatur culpa laborum molestias atque voluptatibus architecto, iste quis? Ut, veniam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt unde et aperiam cum voluptas similique sapiente, possimus inventore, quas aspernatur molestias corporis neque quisquam, iure aliquam ut consectetur praesentium obcaecati!</p></div>
+        <div class="col-lg-4 me-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod in aperiam cumque molestias. Laudantium vel, laborum possimus ab facere perspiciatis at repellendus error, maxime quia distinctio ullam, libero doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus dignissimos eveniet ipsa! Hic saepe itaque, aliquid cum sunt nihil quod in nisi voluptatibus temporibus, molestiae repellat numquam suscipit voluptates.</p></div>
+    </div>
+
+    <div class="text-center mt-4">
+        <img class="img-fluid rounded" src="/static/images/dm-shield.png" alt="DM">
+    </div>
+</div>
+
+
+{% endblock %}

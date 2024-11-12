@@ -1,0 +1,217 @@
+{% extends 'base.html' %}
+
+<!--Título-->
+{% block title %}Loja{% endblock %}
+
+<!--Conteúdo-->
+{% block content %}
+<h2 class="text-center pt-5">Encontre um kit para começar sua jornada</h2>
+
+<section class="py-1">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5">
+                <div class="card h-100 bg-gray p-1">
+                    <img class="img-thumbnail" src="/static/images/loja1.png" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">D&D Starter Set</h5>
+                            R$165,00
+                        </div>
+                    </div>
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#myModal">Comprar</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100 bg-gray p-1">
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                    <img class="img-thumbnail" src="/static/images/loja2.png" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">Kit Dados Perolado</h5>
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                            </div>
+                            <span class="text-muted text-decoration-line-through">R$50,00</span>
+                            R$39,00
+                        </div>
+                    </div>
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#myModal">Comprar</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100 bg-gray p-1">
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                    <img class="img-thumbnail" src="/static/images/loja3.png" alt="..." />
+                    <div class="card-body p-4 text-muted">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">Ordem RPG - Livro Basico</h5>
+                            <span class="text-decoration-line-through">R$200,00</span>
+                            R$140,00
+                        </div>
+                    </div>
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto disabled" href="#"  aria-disabled="true">Comprar</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100 bg-gray p-1">
+                    <img class="img-thumbnail" src="/static/images/loja4.png" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">Chamado De Cthulhu</h5>
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                            </div>
+                            R$230,00
+                        </div>
+                    </div>
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#myModal">Comprar</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100 bg-gray p-1">
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                    <img class="img-thumbnail" src="/static/images/loja5.png" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">D&D - Player's Handbook</h5>
+                            <span class="text-muted text-decoration-line-through">R$260,00</span>
+                            R$200,00
+                        </div>
+                    </div>
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#myModal">Comprar</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100 bg-gray p-1">
+                    <img class="img-thumbnail" src="/static/images/loja6.png" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">D&D - Dungeon Master's Guide</h5>
+                            R$250,00
+                        </div>
+                    </div>
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#myModal">Comprar</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100 bg-gray p-1">
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                    <img class="img-thumbnail" src="/static/images/loja7.png" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">Conjunto de dados - Cthulhu</h5>
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                            </div>
+                            <span class="text-muted text-decoration-line-through">R$300,00</span>
+                            R$250,00
+                        </div>
+                    </div>
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#myModal">Comprar</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100 bg-gray p-1">
+                    <img class="img-thumbnail" src="/static/images/loja8.png" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">Escudo do mestre (DM screen)</h5>
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                            </div>
+                            R$200,00
+                        </div>
+                    </div>
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#myModal">Comprar</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<h3 class="text-center">Comentários</h3>
+<center>
+    <div class="d-flex justify-content-center flex-column col-md-8 mb-1">
+        <form action="/comment" method="post">
+            <input type="text" name="email" placeholder="Email" id="email" required>
+            <input type="text" name="username" placeholder="Nome de Usuario" id="username" required><br>
+            <textarea id="content" name="content" placeholder="Comentário" required></textarea>
+            <div class="msg">{{ msg }}</div>
+            <button class="btn btn-dark" type="submit" value="Enviar">Enviar</button>
+        </form>
+        <center>
+            {% for comment in comment[:5] %}
+            <div class="card p-2 px-4 mt-1 comment">
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <h5 class="mr-2">{{ comment[1] }}</h5>
+                        <span class="mb-1 pl-2 comment-time"><i class="fa fa-clock me-2"></i>{{ comment[3] }}</span>
+                    </div>
+                    <div class="text-start">
+                        <span>
+                            {{ comment[2] }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </center>
+    </div>
+</center>
+
+
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+    
+            <div class="modal-header">
+                <h4 class="modal-title">Aviso</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+        
+            <div class="modal-body">
+                Você esta sendo redirecionado ao link do produto no Mercado Livre
+            </div>
+        
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Continuar</button>
+            </div>
+    
+        </div>
+    </div>
+</div>
+{% endblock %}

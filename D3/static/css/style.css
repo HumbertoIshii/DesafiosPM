@@ -1,0 +1,62 @@
+/* Font Navbar */
+.navbar a{
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+/* Cor do botão Navbar */
+.navbar ul li a {
+    color: whitesmoke;
+}
+
+.navbar ul li a:hover {
+    color: darkgray;
+}
+
+/* Custom Background */
+.bg-black{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.bg-gray{
+    background-color: #e7e7e7;
+    color: black;
+}
+
+/* Carousel Stuff */
+.text-white-black-border {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: whitesmoke;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+.carousel img{
+    opacity: 0.9;
+}
+
+.carousel-inner{
+    height: 550px;
+}
+
+@media (max-width: 991.98px){
+    .carousel-inner{
+        height: 100%;
+    }
+}
+
+.no-bullets {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
